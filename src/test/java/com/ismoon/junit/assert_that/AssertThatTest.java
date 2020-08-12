@@ -28,7 +28,7 @@ public class AssertThatTest {
     }
 
     @Test
-    public void AssertBasicMatchers() {
+    public void AssertBasicMatchers() {//wntjrcnrk
         //allOf : 내부에 선언된 모든 매쳐가 정상일 경우 통과한다.
         assertThat("myValue", allOf(startsWith("my"), containsString("Val")));
 
